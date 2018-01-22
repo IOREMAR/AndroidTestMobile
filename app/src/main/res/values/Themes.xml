@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MyTheme" parent="Theme.AppCompat.Light">
+        <!-- Here we setting appcompat’s actionBarStyle -->
+        <item name="actionBarStyle">@style/MyActionBarStyle</item>
+        <!-- ...and here we setting appcompat’s color theming attrs -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+        <!-- The rest of your attributes -->
+    </style>
+
+    <style name="MyActionBarStyle" parent="@android:style/Widget.ActionBar">
+        <item name="android:background">@color/ColorTheme</item>
+    </style>
+</resources>

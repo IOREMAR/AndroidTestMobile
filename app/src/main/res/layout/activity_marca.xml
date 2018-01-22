@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Colorbackground_General"
+    android:orientation="vertical"
+    tools:context="mariosdevelop.androidtestmobile.Controllers.MarcaActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/ToolbarSeccion"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        style="@style/Toolbar_Theme"
+        >
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_logo"/>
+
+            </LinearLayout>
+
+
+          <!--  <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:paddingRight="15dp"
+                android:visibility="invisible"
+                android:gravity="right|center_vertical">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_settings"
+                    />
+
+            </LinearLayout>
+
+            -->
+
+
+        </LinearLayout>
+
+
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/GridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="20dp">
+
+
+
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+
+
+
